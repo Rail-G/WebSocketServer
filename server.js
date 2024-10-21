@@ -13,7 +13,7 @@ app.use(koaBody({
 }))
 
 app.use(cors({
-    origin: 'https://rail-g.github.io/',
+    origin: 'https://rail-g.github.io',
 }))
 
 app.use(router())
